@@ -25,6 +25,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  ecommerce,
+  youtube,
+  feePortal,
   threejs,
 } from "../assets";
 
@@ -179,7 +182,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: feePortal,
     source_code_link: "https://github.com/Toheed07/student-fee-portal",
   },
   {
@@ -200,7 +203,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ecommerce,
     source_code_link: "https://github.com/Toheed07/E-commerce-Store",
   },
   {
@@ -221,7 +224,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: youtube,
     source_code_link: "https://github.com/Toheed07/Youtube-Clone",
   },
 ];
