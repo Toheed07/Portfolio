@@ -31,9 +31,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import iic from "./company/iic.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import youtube from "./youtube-logo.png";
 import ecommerce from "./e-commerce-logo.png";
 import feePortal from "./fee-portal.png"
@@ -67,9 +65,6 @@ export {
   starbucks,
   iic,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   ecommerce,
   youtube,
   feePortal
