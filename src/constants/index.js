@@ -55,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Project management",
+    title: "Website management",
     icon: creator,
   },
 ];
