@@ -46,10 +46,10 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "Custom software development",
-    icon: mobile,
-  },
+//   {
+//     title: "Wordpress and Shopify Developer",
+//     icon: mobile,
+//   },
   {
     title: "Backend Developer",
     icon: backend,
