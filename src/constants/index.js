@@ -17,8 +17,14 @@ import {
   docker,
   python,
   cpp,
+  arduino,
+  nextjs,
+  postgresql,
   meta,
   starbucks,
+  unsualDigital,
+  dispatchForYou,
+  woxsen,
   iic,
   ecommerce,
   youtube,
@@ -43,11 +49,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "Custom software development",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
@@ -62,28 +64,32 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
+  },
+  {
+    name: "Arduino",
+    icon: arduino,
   },
   {
     name: "Bootstrap",
@@ -98,6 +104,10 @@ const technologies = [
     icon: mongodb,
   },
   {
+    name: "Postgresql",
+    icon: postgresql,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -105,14 +115,8 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "C++",
-    icon: cpp,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
+  
+
 ];
 
 const experiences = [
@@ -125,10 +129,44 @@ const experiences = [
     points: [
       "Collaborated with team members to develop innovative projects, bringing together diverse skills and expertise to tackle real-world problems.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Produced regular reports and updates on project progress, tracking milestones and identifying potential roadblocks to ensure successful project outcomes."
+      "Produced regular reports and updates on project progress, tracking milestones and identifying potential roadblocks to ensure successful project outcomes.",
     ],
   },
- 
+  {
+    title: "Web Developer",
+    company_name: "Unusal Digital",
+    icon: unsualDigital,
+    iconBg: "white",
+    date: "June 2023 - July 2023",
+    points: [
+      "Successfully completed Shopify and WordPress projects with a focus on timely delivery, collaborating seamlessly with design and development teams to exceed client expectations.",
+      "Maintained effective communication with project managers, ensuring project updates were relayed regularly for streamlined coordination and project success.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Dispatch For You",
+    icon: dispatchForYou,
+    iconBg: "#54595F",
+    date: "June 2023 - Present",
+    points: [
+      "In a collaborative team environment, I contributed to the development of the Gravitii product using TypeScript, Next.js, and Python (FastAPI), showcasing proficiency in diverse technologies.",
+      "Implemented advanced features, including Backend Pagination, Authentication, and Web3Storage for efficient data storage, enhancing the product's functionality.",
+      "Fostered cross-functional collaboration to ensure a seamless user experience and optimize system performance, actively participating in discussions and aligning with team goals.",
+      "Played a key role in component development and state management, contributing to the overall robustness and efficiency of the project.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "Woxsen University",
+    icon: woxsen,
+    iconBg: "white",
+    date: "November 2023 - Present",
+    points: [
+      "I initiated the process of familiarizing myself with essential project management and development tools crucial for upcoming tasks.",
+      "Expressed eagerness to contribute actively to upcoming projects, demonstrating a proactive attitude toward learning and collaboration.",
+    ],
+  },
 ];
 
 const testimonials = [

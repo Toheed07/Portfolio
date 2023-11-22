@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="text-center animate-fade-in">
           <h1 className={`${styles.heroHeadText} text-white`}>Toheed Jamaal</h1>
           <p className={`${styles.heroSubText} mt-2`}>
-            I'm a Full-Stack Web Developer
+            I'm a Full-Stack Developer
           </p>
         </div>
       </div>

@@ -23,18 +23,24 @@ import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp.png"
 import python from "./tech/python.png"
 import bootstrap from "./tech/bootstrap.png"
-
+import postgresql from "./tech/pstgresql.png"
+import arduino from "./tech/arduino.png"
+import nextjs from "./tech/nextjs.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import iic from "./company/iic.png"
+import unsualDigital from "./company/UnusalDigital.png"
+import dispatchForYou from "./company/DFY_Logo-only-trailer-White.png"
+import woxsen from "./company/woxsen_university_logo.png"
 
 
 import youtube from "./youtube-logo.png";
 import ecommerce from "./e-commerce-logo.png";
 import feePortal from "./fee-portal.png"
+import gravitii from "./Gravitii.png"
 export {
   logo,
   backend,
@@ -60,6 +66,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  postgresql,
+  nextjs,
+  arduino,
+  woxsen,
+  dispatchForYou,
+  unsualDigital,
   meta,
   shopify,
   starbucks,
@@ -67,5 +79,6 @@ export {
   tesla,
   ecommerce,
   youtube,
-  feePortal
+  feePortal,
+  gravitii
 };
