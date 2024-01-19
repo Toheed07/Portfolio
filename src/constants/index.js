@@ -157,7 +157,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full Stack Developer",
+    title: "Full-Stack Web Developer",
     company_name: "Woxsen University",
     icon: woxsen,
     iconBg: "white",

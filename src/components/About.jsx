@@ -46,15 +46,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-gray-200 text-[17px] max-w-3xl leading-[30px]"
       >
-        I specialize in JavaScript, React, and Node.js, and use these tools to
-        create dynamic, scalable, and user-friendly web applications. With a
-        strong foundation in these technologies, I am able to write clean and
-        efficient code, allowing me to develop high-quality applications that
-        meet client needs. Whether it's building new applications from scratch
-        or maintaining existing ones, I am a dedicated and reliable developer
-        who has the skills necessary to deliver top-notch results.
+        Full-Stack Web Developer with a solid foundation in JavaScript, Python, and
+        C++. Proficient in ReactJS, Next.js, Express, Node.js, MongoDB, MySQL,
+        and Firestore. Skilled in version control with GIT, cloud platforms like
+        Firebase, API testing with Postman, and payment integration using
+        Stripe. Excels in designing and implementing end-to-end solutions,
+        translating business needs into technical success. Seeking an
+        opportunity to leverage my skills and contribute to innovative projects
+        as a Full Stack Developer within a technology-driven organization.
       </motion.p>
-
     </>
   );
 };
