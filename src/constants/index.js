@@ -125,7 +125,7 @@ const experiences = [
     company_name: "Institution Innovation Council (IIC)",
     icon: iic,
     iconBg: "white",
-    date: "December 2022 - Present",
+    date: "December 2022 - June 2023",
     points: [
       "Collaborated with team members to develop innovative projects, bringing together diverse skills and expertise to tackle real-world problems.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -144,27 +144,27 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Dispatch For You",
-    icon: dispatchForYou,
-    iconBg: "#54595F",
-    date: "June 2023 - Present",
-    points: [
-      "In a collaborative team environment, I contributed to the development of the Gravitii product using TypeScript, Next.js, and Python (FastAPI), showcasing proficiency in diverse technologies.",
-      "Implemented advanced features, including Backend Pagination, Authentication, and Web3Storage for efficient data storage, enhancing the product's functionality.",
-      "Fostered cross-functional collaboration to ensure a seamless user experience and optimize system performance, actively participating in discussions and aligning with team goals.",
-      "Played a key role in component development and state management, contributing to the overall robustness and efficiency of the project.",
-    ],
-  },
-  {
     title: "Full-Stack Web Developer",
     company_name: "Woxsen University",
     icon: woxsen,
     iconBg: "white",
-    date: "November 2023 - Present",
+    date: "December 2023 - February 2024",
     points: [
-      "I initiated the process of familiarizing myself with essential project management and development tools crucial for upcoming tasks.",
-      "Expressed eagerness to contribute actively to upcoming projects, demonstrating a proactive attitude toward learning and collaboration.",
+      "Debugged and resolved software issues in existing research projects, ensuring optimal functionality.",
+      "Streamlined website communication by integrating a novel notification system leveraged on an API architecture.",
+      "Developed an API with user-defined filtering options, enhancing data accessibility for users.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Dispatch For You",
+    icon: dispatchForYou,
+    iconBg: "#54595F",
+    date: "June 2023 - April 2024",
+    points: [
+      "Implemented server-side pagination, resulting in a 30–50% reduction in server load and enhanced user experience",
+      "Optimized image storage and resource utilization by utilizing Web3Storage and later transitioning to AWS, consistently achieving image size reductions of 80-90% using the Sharp package for efficient compression",
+      "Led the integration of AWS Amplify UI to implement robust Cognito-based authentication, replacing Firebase and enhancing security and data management.",
     ],
   },
 ];
