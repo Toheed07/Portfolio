@@ -24,6 +24,7 @@ import {
   starbucks,
   unsualDigital,
   dispatchForYou,
+  panduAI,
   woxsen,
   iic,
   ecommerce,
@@ -115,8 +116,6 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  
-
 ];
 
 const experiences = [
@@ -165,6 +164,18 @@ const experiences = [
       "Implemented server-side pagination, resulting in a 30–50% reduction in server load and enhanced user experience",
       "Optimized image storage and resource utilization by utilizing Web3Storage and later transitioning to AWS, consistently achieving image size reductions of 80-90% using the Sharp package for efficient compression",
       "Led the integration of AWS Amplify UI to implement robust Cognito-based authentication, replacing Firebase and enhancing security and data management.",
+    ],
+  },
+  {
+    title: "Backend Developer",
+    company_name: "PanduAI",
+    icon: panduAI,
+    iconBg: "#54595F",
+    date: "June 2024 - October 2024",
+    points: [
+     "Developed and deployed a scalable AI-powered video editor platform on Azure, integrating with services like OpenAI, Stability AI, and ElevenLabs to generate high-quality videos based on user prompts, incorporating features like custom captions, filters, and scheduling, while ensuring efficient resource utilization through a robust queuing system (Celery) and a dynamic pooling mechanism for real-time progress updates.",
+     "Successfully delivered a side project that leverages the core video generation logic to automate the creation of engaging lecture videos from Google Slides presentations for universities, integrating with Google APIs and implementing a recursive OpenAI-based script generation approach to handle long-form content." ,
+     "Successfully architected and implemented a scalable video generation platform leveraging Python, FastAPI, Azure, and cutting-edge AI/ML technologies, enabling efficient and high-quality video production.",
     ],
   },
 ];

@@ -34,6 +34,7 @@ import tesla from "./company/tesla.png";
 import iic from "./company/iic.png"
 import unsualDigital from "./company/UnusalDigital.png"
 import dispatchForYou from "./company/DFY_Logo-only-trailer-White.png"
+import panduAI from "./company/pandu_ai_logo.jpeg"
 import woxsen from "./company/woxsen_university_logo.png"
 
 
@@ -71,6 +72,7 @@ export {
   arduino,
   woxsen,
   dispatchForYou,
+  panduAI,
   unsualDigital,
   meta,
   shopify,
