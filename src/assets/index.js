@@ -20,28 +20,42 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import cpp from "./tech/cpp.png"
-import python from "./tech/python.png"
-import bootstrap from "./tech/bootstrap.png"
-import postgresql from "./tech/pstgresql.png"
-import arduino from "./tech/arduino.png"
-import nextjs from "./tech/nextjs.png"
+import cpp from "./tech/cpp.png";
+import python from "./tech/python.png";
+import bootstrap from "./tech/bootstrap.png";
+import postgresql from "./tech/pstgresql.png";
+import arduino from "./tech/arduino.png";
+import nextjs from "./tech/nextjs.png";
+import fastapi from "./tech/fastapi.png";
+import express from "./tech/express.png";
+import redis from "./tech/redis.png";
+import nginx from "./tech/nginx.png";
+import azure from "./tech/azure.png";
+import aws from "./tech/aws.png";
+import kubernetes from "./tech/kubernetes.png";
+import githib_actions from "./tech/github_actions.png";
+import celery from "./tech/celery.png";
+import graphql from "./tech/graphql.png";
+import firebase from "./tech/firebase.png";
+import supabase from "./tech/supabase.png";
+import socket_io from "./tech/socket_io.png";
+import stripe from "./tech/stripe.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import iic from "./company/iic.png"
-import unsualDigital from "./company/UnusalDigital.png"
-import dispatchForYou from "./company/DFY_Logo-only-trailer-White.png"
-import panduAI from "./company/pandu_ai_logo.jpeg"
-import woxsen from "./company/woxsen_university_logo.png"
-
+import iic from "./company/iic.png";
+import unsualDigital from "./company/UnusalDigital.png";
+import dispatchForYou from "./company/DFY_Logo-only-trailer-White.png";
+import panduAI from "./company/pandu_ai_logo.jpeg";
+import woxsen from "./company/woxsen_university_logo.png";
 
 import youtube from "./youtube-logo.png";
+import database_backup_utility from "./database-backup-utility.png";
 import ecommerce from "./e-commerce-logo.png";
-import feePortal from "./fee-portal.png"
-import gravitii from "./Gravitii.png"
+import feePortal from "./fee-portal.png";
+import gravitii from "./Gravitii.png";
 export {
   logo,
   backend,
@@ -63,6 +77,20 @@ export {
   bootstrap,
   nodejs,
   reactjs,
+  fastapi,
+  express,
+  redis,
+  nginx,
+  azure,
+  aws,
+  kubernetes,
+  githib_actions,
+  celery,
+  graphql,
+  firebase,
+  supabase,
+  socket_io,
+  stripe,
   redux,
   tailwind,
   typescript,
@@ -81,6 +109,7 @@ export {
   tesla,
   ecommerce,
   youtube,
+  database_backup_utility,
   feePortal,
-  gravitii
+  gravitii,
 };

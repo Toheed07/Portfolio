@@ -20,6 +20,20 @@ import {
   arduino,
   nextjs,
   postgresql,
+  firebase,
+  kubernetes,
+  graphql,
+  celery, 
+  stripe,
+  socket_io,
+  supabase,
+  redis,
+  express,
+  fastapi,
+  githib_actions,
+  aws,
+  azure,
+  nginx,
   meta,
   starbucks,
   unsualDigital,
@@ -31,6 +45,8 @@ import {
   youtube,
   feePortal,
   threejs,
+  tailwind,
+  database_backup_utility,
 } from "../assets";
 
 export const navLinks = [
@@ -64,10 +80,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "C++",
-    icon: cpp,
-  },
+  // languages
   {
     name: "Python",
     icon: python,
@@ -75,6 +88,93 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  // Frameworks
+  {
+    name: "FastAPI",
+    icon: fastapi,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  // Databases
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  // Web server
+  {
+    name: "NGINX",
+    icon: nginx,
+  },
+  // Cloud
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  // DevOps
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  
+  {
+    name: "GitHub Actions",
+    icon: githib_actions,
+  },
+  // Tools
+  {
+    name: "Celery",
+    icon: celery,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "Supabase",
+    icon: supabase,
+  },
+  {
+    name: "Socket.io",  
+    icon: socket_io,
+  },
+  {
+    name: "Stripe",  
+    icon: stripe,
   },
   {
     name: "React JS",
@@ -93,29 +193,10 @@ const technologies = [
     icon: arduino,
   },
   {
-    name: "Bootstrap",
-    icon: bootstrap,
+    name: "Tailwind",
+    icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Postgresql",
-    icon: postgresql,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
 ];
 
 const experiences = [
@@ -173,9 +254,9 @@ const experiences = [
     iconBg: "#54595F",
     date: "June 2024 - October 2024",
     points: [
-     "Developed and deployed a scalable AI-powered video editor platform on Azure, integrating with services like OpenAI, Stability AI, and ElevenLabs to generate high-quality videos based on user prompts, incorporating features like custom captions, filters, and scheduling, while ensuring efficient resource utilization through a robust queuing system (Celery) and a dynamic pooling mechanism for real-time progress updates.",
-     "Successfully delivered a side project that leverages the core video generation logic to automate the creation of engaging lecture videos from Google Slides presentations for universities, integrating with Google APIs and implementing a recursive OpenAI-based script generation approach to handle long-form content." ,
-     "Successfully architected and implemented a scalable video generation platform leveraging Python, FastAPI, Azure, and cutting-edge AI/ML technologies, enabling efficient and high-quality video production.",
+      "Developed and deployed a scalable AI-powered video editor platform on Azure, integrating with services like OpenAI, Stability AI, and ElevenLabs to generate high-quality videos based on user prompts, incorporating features like custom captions, filters, and scheduling, while ensuring efficient resource utilization through a robust queuing system (Celery) and a dynamic pooling mechanism for real-time progress updates.",
+      "Successfully delivered a side project that leverages the core video generation logic to automate the creation of engaging lecture videos from Google Slides presentations for universities, integrating with Google APIs and implementing a recursive OpenAI-based script generation approach to handle long-form content.",
+      "Successfully architected and implemented a scalable video generation platform leveraging Python, FastAPI, Azure, and cutting-edge AI/ML technologies, enabling efficient and high-quality video production.",
     ],
   },
 ];
@@ -208,6 +289,31 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Database Backup Utility",
+    description:
+      "This is a Python tool for automating backup and restore operations for MongoDB and PostgreSQL databases. It supports features like compression, encryption, and detailed logging, all accessible through a simple command-line interface. Future updates will include support for more databases and scheduled backups.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typer",
+        color: "white-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: database_backup_utility,
+    source_code_link: "https://github.com/Toheed07/Database-Backup-Utility",
+  },
   {
     name: "Fee Portal",
     description:
@@ -250,27 +356,7 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://github.com/Toheed07/E-commerce-Store",
   },
-  {
-    name: "Youtube Clone",
-    description:
-      "The ReactJS-based YouTube clone website uses Material UI for a modern interface with responsive design. It includes search, filtering, and real-time data on new video releases, likes, and comments through API integration.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mui",
-        color: "green-text-gradient",
-      },
-      {
-        name: "api",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube,
-    source_code_link: "https://github.com/Toheed07/Youtube-Clone",
-  },
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };

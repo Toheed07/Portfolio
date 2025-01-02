@@ -46,14 +46,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-gray-200 text-[17px] max-w-3xl leading-[30px]"
       >
-        Full-Stack Web Developer with a solid foundation in JavaScript, Python, and
-        C++. Proficient in ReactJS, Next.js, Express, Node.js, MongoDB, MySQL,
-        and Firestore. Skilled in version control with GIT, cloud platforms like
-        Firebase, API testing with Postman, and payment integration using
-        Stripe. Excels in designing and implementing end-to-end solutions,
-        translating business needs into technical success. Seeking an
-        opportunity to leverage my skills and contribute to innovative projects
-        as a Full Stack Developer within a technology-driven organization.
+        I'm a backend developer who finds joy in clean APIs and elegant error
+        handling. While Node.js powers my daily builds, I switch between Python
+        and JavaScript to craft solutions that fit each unique challenge. My
+        systems juggle complex business logic across PostgreSQL and MongoDB,
+        integrate seamlessly with external APIs, and leverage cloud services
+        like Azure VMs and AWS S3. What sets my code apart isn't just that it
+        works – it's that other developers actually enjoy working with it.
+        Beyond building APIs, I thrive on solving intricate problems, whether
+        it's optimizing database queries or orchestrating multiple third-party
+        integrations into a cohesive system.
       </motion.p>
     </>
   );
