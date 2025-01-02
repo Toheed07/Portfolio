@@ -292,7 +292,7 @@ const projects = [
   {
     name: "Database Backup Utility",
     description:
-      "This is a Python tool for automating backup and restore operations for MongoDB and PostgreSQL databases. It supports features like compression, encryption, and detailed logging, all accessible through a simple command-line interface. Future updates will include support for more databases and scheduled backups.",
+      "This is a Python tool for automating backup and restore operations for MongoDB and PostgreSQL databases. It supports features like compression, encryption, and detailed logging, all accessible through a simple command-line interface.",
     tags: [
       {
         name: "python",
