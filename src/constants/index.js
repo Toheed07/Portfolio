@@ -95,7 +95,7 @@ const technologies = [
     icon: cpp,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   // Frameworks
@@ -295,7 +295,7 @@ const projects = [
       "A scalable e-commerce platform built with microservices architecture. The platform provides comprehensive e-commerce functionality including user management, product catalog, shopping cart, order processing, payments, and notifications.",
     tags: [
       {
-        name: "NodeJS",
+        name: "Node.js",
         color: "blue-text-gradient",
       },
       {
