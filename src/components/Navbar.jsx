@@ -59,7 +59,7 @@ const Navbar = () => {
           ))}
           <li className="text-white hover:text-secondary text-[18px] font-medium cursor-pointer">
             <a
-              href="https://drive.google.com/file/d/1207jEUBFLv9-QHB7crSkLdWULsi2kfTU/view?usp=sharing"
+              href="https://drive.google.com/file/d/1657zZNP0YC8L14CyA6dzYPrk6weR0e0-/view?usp=sharing"
               target="_blank"
             >
               Resume
@@ -97,7 +97,7 @@ const Navbar = () => {
               ))}
               <li className="text-white hover:text-secondary text-[18px] font-medium cursor-pointer">
                 <a
-                  href="https://drive.google.com/file/d/1207jEUBFLv9-QHB7crSkLdWULsi2kfTU/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1657zZNP0YC8L14CyA6dzYPrk6weR0e0-/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
