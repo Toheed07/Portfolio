@@ -53,6 +53,7 @@ import woxsen from "./company/woxsen_university_logo.png";
 
 import youtube from "./youtube-logo.png";
 import database_backup_utility from "./database-backup-utility.png";
+import scalable_e_commerce_platform from "./scalable-e-commerce-platform.webp";
 import ecommerce from "./e-commerce-logo.png";
 import feePortal from "./fee-portal.png";
 import gravitii from "./Gravitii.png";
@@ -110,6 +111,7 @@ export {
   ecommerce,
   youtube,
   database_backup_utility,
+  scalable_e_commerce_platform,
   feePortal,
   gravitii,
 };

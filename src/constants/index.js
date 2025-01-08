@@ -23,7 +23,7 @@ import {
   firebase,
   kubernetes,
   graphql,
-  celery, 
+  celery,
   stripe,
   socket_io,
   supabase,
@@ -47,6 +47,7 @@ import {
   threejs,
   tailwind,
   database_backup_utility,
+  scalable_e_commerce_platform,
 } from "../assets";
 
 export const navLinks = [
@@ -146,7 +147,7 @@ const technologies = [
     name: "Docker",
     icon: docker,
   },
-  
+
   {
     name: "GitHub Actions",
     icon: githib_actions,
@@ -169,11 +170,11 @@ const technologies = [
     icon: supabase,
   },
   {
-    name: "Socket.io",  
+    name: "Socket.io",
     icon: socket_io,
   },
   {
-    name: "Stripe",  
+    name: "Stripe",
     icon: stripe,
   },
   {
@@ -196,7 +197,6 @@ const technologies = [
     name: "Tailwind",
     icon: tailwind,
   },
-
 ];
 
 const experiences = [
@@ -290,6 +290,35 @@ const testimonials = [
 
 const projects = [
   {
+    name: "E-commerce Backend (Microservices)",
+    description:
+      "A scalable e-commerce platform built with microservices architecture. The platform provides comprehensive e-commerce functionality including user management, product catalog, shopping cart, order processing, payments, and notifications.",
+    tags: [
+      {
+        name: "NodeJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NGINX",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GitHub Actions",  
+        color: "pink-text-gradient",
+      },
+    ],
+    image: scalable_e_commerce_platform,
+    source_code_link: "https://github.com/Toheed07/Scalable-E-Commerce-Platform",
+  },
+  {
     name: "Database Backup Utility",
     description:
       "This is a Python tool for automating backup and restore operations for MongoDB and PostgreSQL databases. It supports features like compression, encryption, and detailed logging, all accessible through a simple command-line interface.",
@@ -356,7 +385,27 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://github.com/Toheed07/E-commerce-Store",
   },
- 
+  {
+    name: "Youtube Clone",
+    description:
+      "The ReactJS-based YouTube clone website uses Material UI for a modern interface with responsive design. It includes search, filtering, and real-time data on new video releases, likes, and comments through API integration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtube,
+    source_code_link: "https://github.com/Toheed07/Youtube-Clone",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
