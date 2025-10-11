@@ -39,6 +39,7 @@ import {
   unsualDigital,
   dispatchForYou,
   panduAI,
+  boardCerts,
   woxsen,
   iic,
   ecommerce,
@@ -48,6 +49,7 @@ import {
   tailwind,
   database_backup_utility,
   scalable_e_commerce_platform,
+
 } from "../assets";
 
 export const navLinks = [
@@ -259,6 +261,21 @@ const experiences = [
       "Successfully architected and implemented a scalable video generation platform leveraging Python, FastAPI, Azure, and cutting-edge AI/ML technologies, enabling efficient and high-quality video production.",
     ],
   },
+  {
+    title: "Backend Engineer",
+    company_name: "BoardCerts",
+    icon: boardCerts,
+    iconBg: "white",
+    date: "January 2025 - Present",
+    points: [
+      "Developed and maintained scalable REST APIs for the company's LMS platform using Python (FastAPI), supporting thousands of nursing exam learners across the U.S.",
+      "Implemented efficient pagination, indexing, and filtering to optimize API performance and data accessibility.",
+      "Integrated Azure services including Azure Storage, App Service, and Cosmos DB (Mongo API) for reliable cloud deployment and storage solutions.",
+      "Architected an AI-driven question generation system leveraging models like GPT, Claude, and Gemini to create exam questions automatically from textbook data.",
+      "Used Celery-based task queues to handle long-running generation jobs with fault tolerance and scalability.",
+    ],
+  },
+  
 ];
 
 const testimonials = [
