@@ -1,64 +1,28 @@
-import React from "react";
-import Tilt from "react-tilt";
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { services } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full steel-gray-gradient p-[1px] rounded-[20px] shadow-card"
-    >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-      >
-        <img
-          src={icon}
-          alt="web-development"
-          className="w-16 h-16 object-contain"
-        />
-
-        <h3 className="text-white text-[20px] font-bold text-center">
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  </Tilt>
-);
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <h2 className={styles.sectionHeadText}>Introduction</h2>
-      </motion.div>
-
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-gray-200 text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a backend developer who finds joy in clean APIs and elegant error
-        handling. While Node.js powers my daily builds, I switch between Python
-        and JavaScript to craft solutions that fit each unique challenge. My
-        systems juggle complex business logic across PostgreSQL and MongoDB,
-        integrate seamlessly with external APIs, and leverage cloud services
-        like Azure VMs and AWS S3. What sets my code apart isn't just that it
-        works – it's that other developers actually enjoy working with it.
-        Beyond building APIs, I thrive on solving intricate problems, whether
-        it's optimizing database queries or orchestrating multiple third-party
-        integrations into a cohesive system.
-      </motion.p>
-    </>
+    <section id="about" className={`${styles.section} scroll-mt-24 pb-24 sm:pb-32`}>
+      <h2 className={styles.sectionHead}>About</h2>
+      <div className="mt-8 space-y-5 text-lg leading-relaxed text-ink/90">
+        <p>
+          I work at the intersection of production backends and generative AI.
+          At BoardCerts I shipped a multi-LLM question generation pipeline -
+          Gemini, Claude, and Bedrock - that cut manual content work by 40%
+          and sped generation 3× for a U.S. nursing exam platform.
+        </p>
+        <p>
+          Before that I built AI video generation at PanduAI and scaled backend
+          systems at Dispatch For You. I work primarily in Python and
+          JavaScript, across FastAPI, Postgres, MongoDB, and AWS/Azure.
+        </p>
+        <p>
+          Right now I am focused on RAG, agentic systems, and the
+          infrastructure that makes them reliable in production.
+        </p>
+      </div>
+    </section>
   );
 };
 
-export default SectionWrapper(About, "about");
+export default About;

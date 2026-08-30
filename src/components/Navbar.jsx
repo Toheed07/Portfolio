@@ -1,113 +1,109 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import { navLinks, socials } from "../constants/site";
 import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+
+const MenuIcon = () => (
+  <svg width="22" height="14" viewBox="0 0 22 14" fill="none" aria-hidden="true">
+    <path
+      d="M0 1h22M0 7h22M0 13h22"
+      stroke="currentColor"
+      strokeWidth="1.4"
+    />
+  </svg>
+);
+
+const CloseIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+    <path
+      d="M1 1l14 14M15 1L1 15"
+      stroke="currentColor"
+      strokeWidth="1.4"
+    />
+  </svg>
+);
+
+const linkClass =
+  "font-sans text-[0.95rem] text-ink/80 transition-colors hover:text-accent";
 
 const Navbar = () => {
-  const [active, setActive] = useState("");
-  const [toggle, setToggle] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  const [open, setOpen] = useState(false);
+  const close = () => setOpen(false);
 
   return (
-    <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
-      }`}
-    >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+    <header className="fixed top-0 z-20 w-full border-b border-ink/[0.08] bg-paper/90 backdrop-blur-[2px]">
+      <nav className={`${styles.nav} flex h-[4.25rem] items-center justify-between`}>
         <Link
           to="/"
-          className="flex items-center gap-2"
+          className="font-serif text-lg tracking-tight text-ink"
           onClick={() => {
-            setActive("");
+            close();
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          Toheed Jamaal
         </Link>
 
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="hidden items-center gap-6 md:flex">
           {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${
-                active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+            <li key={nav.id}>
+              <a href={`#${nav.id}`} className={linkClass}>
+                {nav.title}
+              </a>
             </li>
           ))}
-          <li className="text-white hover:text-secondary text-[18px] font-medium cursor-pointer">
+          <li>
             <a
-              href="https://drive.google.com/file/d/1657zZNP0YC8L14CyA6dzYPrk6weR0e0-/view?usp=sharing"
+              href={socials.resume}
               target="_blank"
+              rel="noreferrer"
+              className={linkClass}
             >
               Resume
             </a>
           </li>
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain"
-            onClick={() => setToggle(!toggle)}
-          />
+        <button
+          type="button"
+          className="text-ink md:hidden"
+          aria-label={open ? "Close menu" : "Open menu"}
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? <CloseIcon /> : <MenuIcon />}
+        </button>
+      </nav>
 
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-          >
-            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-              {navLinks.map((nav) => (
-                <li
-                  key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
-                  }`}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(nav.title);
-                  }}
-                >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
-                </li>
-              ))}
-              <li className="text-white hover:text-secondary text-[18px] font-medium cursor-pointer">
+      {open && (
+        <div className={`${styles.nav} border-t border-ink/10 py-5 md:hidden`}>
+          <ul className="flex flex-col gap-4">
+            {navLinks.map((nav) => (
+              <li key={nav.id}>
                 <a
-                  href="https://drive.google.com/file/d/1657zZNP0YC8L14CyA6dzYPrk6weR0e0-/view?usp=sharing"
-                  target="_blank"
+                  href={`#${nav.id}`}
+                  className="font-sans text-lg"
+                  onClick={close}
                 >
-                  Resume
+                  {nav.title}
                 </a>
               </li>
-            </ul>
-          </div>
+            ))}
+            <li>
+              <a
+                href={socials.resume}
+                target="_blank"
+                rel="noreferrer"
+                className="font-sans text-lg"
+                onClick={close}
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </nav>
+      )}
+    </header>
   );
 };
 
