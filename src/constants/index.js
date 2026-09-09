@@ -255,11 +255,11 @@ const experiences = [
     iconBg: "white",
     date: "January 2025 - Present",
     points: [
-      "Developed and maintained scalable REST APIs for the company's LMS platform using Python (FastAPI), supporting thousands of nursing exam learners across the U.S.",
-      "Implemented efficient pagination, indexing, and filtering to optimize API performance and data accessibility.",
-      "Integrated Azure services including Azure Storage, App Service, and Cosmos DB (Mongo API) for reliable cloud deployment and storage solutions.",
-      "Architected an AI-driven question generation system leveraging models like GPT, Claude, and Gemini to create exam questions automatically from textbook data.",
-      "Used Celery-based task queues to handle long-running generation jobs with fault tolerance and scalability.",
+      "Build and maintain backend services and APIs for a U.S. nursing board certification exam preparation platform.",
+      "Develop automation that streamlines content production and improves operational efficiency.",
+      "Design and deliver backend functionality supporting core learning and assessment workflows.",
+      "Improve platform performance, reliability, and scalability across production systems.",
+      "Collaborate with product stakeholders to design and ship features for a growing education platform.",
     ],
   },
   

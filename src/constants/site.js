@@ -1,4 +1,4 @@
-export const SITE_URL = "https://toheedjamaal.netlify.app";
+export const SITE_URL = "https://toheedjamaal.com";
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -9,7 +9,7 @@ export const navLinks = [
 ];
 
 export const socials = {
-  email: "toheedjamaal9@gmail.com",
+  email: "toheedj@toheedjamaal.com",
   linkedin: "https://www.linkedin.com/in/toheedjamaal",
   github: "https://github.com/Toheed07",
   resume: "/resume.pdf",
@@ -22,9 +22,11 @@ export const experiences = [
     href: "https://www.boardcerts.com/",
     date: "Jan 2025 — Present",
     points: [
-      "Build REST APIs in FastAPI for a U.S. nursing exam LMS used by thousands of learners.",
-      "Shipped a multi-LLM question generation pipeline - Gemini, Claude, and Bedrock - that cut manual content work by 40% and sped generation 3×.",
-      "Run long jobs on Celery; Azure Storage, App Service, and Cosmos DB in production.",
+      "Build and maintain backend services and APIs for a U.S. nursing board certification exam preparation platform.",
+      "Develop automation that streamlines content production and improves operational efficiency.",
+      "Design and deliver backend functionality supporting core learning and assessment workflows.",
+      "Improve platform performance, reliability, and scalability across production systems.",
+      "Collaborate with product stakeholders to design and ship features for a growing education platform.",
     ],
   },
   {
@@ -78,11 +80,11 @@ export const skillGroups = [
   {
     heading: "GenAI",
     items: [
-      "Multi-LLM pipelines",
+      "Generative AI",
+      "RAG",
+      "Agentic systems",
       "Prompt engineering",
-      "Gemini, Claude, Bedrock",
-      "OpenAI & ElevenLabs",
-      "Async generation jobs",
+      "Multi-LLM orchestration",
     ],
   },
   {
@@ -91,7 +93,7 @@ export const skillGroups = [
   },
   {
     heading: "Data",
-    items: ["PostgreSQL", "MongoDB", "Redis", "Cosmos DB"],
+    items: ["PostgreSQL", "MongoDB", "Redis"],
   },
   {
     heading: "Cloud & infra",

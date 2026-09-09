@@ -6,19 +6,22 @@ const About = () => {
       <h2 className={styles.sectionHead}>About</h2>
       <div className="mt-8 space-y-5 text-lg leading-relaxed text-ink/90">
         <p>
-          I work at the intersection of production backends and generative AI.
-          At BoardCerts I shipped a multi-LLM question generation pipeline -
-          Gemini, Claude, and Bedrock - that cut manual content work by 40%
-          and sped generation 3× for a U.S. nursing exam platform.
+          Backend engineer building scalable systems, currently at BoardCerts,
+          an EdTech platform for nursing board certification exam preparation.
+          Day to day I design backend services, automate operational workflows,
+          and improve platform performance and reliability in production.
         </p>
         <p>
           Before that I built AI video generation at PanduAI and scaled backend
-          systems at Dispatch For You. I work primarily in Python and
-          JavaScript, across FastAPI, Postgres, MongoDB, and AWS/Azure.
+          systems at Dispatch For You.
         </p>
         <p>
-          Right now I am focused on RAG, agentic systems, and the
-          infrastructure that makes them reliable in production.
+          Alongside that work I am building depth in generative AI
+          engineering - RAG, multi-LLM system design, fine-tuning, agentic
+          architectures, and MCP-based tool orchestration - through coursework
+          and independent projects. I care as much about evaluation,
+          observability, guardrails, and cost-aware architecture as about the
+          features themselves.
         </p>
       </div>
     </section>

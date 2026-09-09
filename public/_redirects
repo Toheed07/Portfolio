@@ -1,1 +1,8 @@
+https://toheedjamaal.netlify.app/*  https://toheedjamaal.com/:splat  301!
+http://toheedjamaal.netlify.app/*   https://toheedjamaal.com/:splat  301!
+https://www.toheedjamaal.com/*      https://toheedjamaal.com/:splat  301!
+http://www.toheedjamaal.com/*       https://toheedjamaal.com/:splat  301!
+
+/robots.txt  /robots.txt  200
+/sitemap.xml  /sitemap.xml  200
 /* /index.html 200
