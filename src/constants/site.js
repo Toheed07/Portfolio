@@ -20,7 +20,7 @@ export const experiences = [
     title: "Backend Engineer",
     company: "BoardCerts",
     href: "https://www.boardcerts.com/",
-    date: "Jan 2025 — Present",
+    date: "Jan 2025 - Present",
     points: [
       "Build and maintain backend services and APIs for a U.S. nursing board certification exam preparation platform.",
       "Develop automation that streamlines content production and improves operational efficiency.",
@@ -33,7 +33,7 @@ export const experiences = [
     title: "Backend Developer",
     company: "PanduAI",
     href: "https://www.linkedin.com/company/pandu-ai",
-    date: "Jun 2024 — Oct 2024",
+    date: "Jun 2024 - Oct 2024",
     points: [
       "Shipped an AI video platform on Azure with OpenAI, Stability AI, and ElevenLabs, plus Celery queues and live progress.",
       "Automated lecture videos from Google Slides with recursive script generation for long-form content.",
@@ -43,7 +43,7 @@ export const experiences = [
     title: "Software Developer",
     company: "Dispatch For You",
     href: "https://dispatchforyou.com/",
-    date: "Jun 2023 — Apr 2024",
+    date: "Jun 2023 - Apr 2024",
     points: [
       "Cut server load 30-50% with server-side pagination.",
       "Reduced image sizes 80-90% and moved storage to AWS.",
@@ -54,7 +54,7 @@ export const experiences = [
     title: "Full-Stack Web Developer",
     company: "Woxsen University",
     href: "https://woxsen.edu.in/",
-    date: "Dec 2023 — Feb 2024",
+    date: "Dec 2023 - Feb 2024",
     points: [
       "Built APIs with user-defined filters and a notification system for university research projects.",
     ],
