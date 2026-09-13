@@ -63,16 +63,30 @@ export const experiences = [
 
 export const projects = [
   {
+    name: "Docubix - RAG-as-a-Service",
+    description:
+      "Hosted RAG platform for founders and product teams: add a cited AI assistant without building your own retrieval pipeline. Users upload PDF, DOCX, TXT, or Markdown into isolated knowledge bases; Docubix chunks, embeds, and indexes automatically. Configure a system prompt and model, then call one REST endpoint for chat, citations, and history - every answer links back to the exact document and section.",
+    tags: ["RAG", "SaaS", "Vector databases", "FastAPI"],
+    live: "https://docubix.com/",
+  },
+  {
+    name: "SEC EDGAR Financial Q&A",
+    description:
+      "Natural-language Q&A over public-company 10-K and 10-Q filings, with inline citations. Numbers come from structured XBRL, not LLM-invented figures. A LangGraph graph routes each question through hybrid retrieval, numeric tools, a writer that only uses tool-sourced numbers, and a verifier that checks every dollar figure - rewrite and re-verify on failure. A standalone MCP server exposes search_filings, get_financial_metric, and compare_companies for Claude Desktop and other MCP clients.",
+    tags: ["LangGraph", "RAG", "MCP", "FastAPI", "PostgreSQL"],
+    source: "https://github.com/Toheed07/SEC-EDGAR",
+  },
+  {
     name: "E-commerce backend",
     description:
-      "Microservices for catalog, cart, orders, payments, and notifications - Node.js, NGINX, Docker, MongoDB, GitHub Actions.",
-    href: "https://github.com/Toheed07/Scalable-E-Commerce-Platform",
+      "Microservices for catalog, cart, orders, payments, and notifications — Node.js, NGINX, Docker, MongoDB, GitHub Actions.",
+    source: "https://github.com/Toheed07/Scalable-E-Commerce-Platform",
   },
   {
     name: "Database backup utility",
     description:
       "CLI for backup and restore of MongoDB and PostgreSQL, with compression, encryption, and logging.",
-    href: "https://github.com/Toheed07/Database-Backup-Utility",
+    source: "https://github.com/Toheed07/Database-Backup-Utility",
   },
 ];
 
@@ -83,8 +97,9 @@ export const skillGroups = [
       "Generative AI",
       "RAG",
       "Agentic systems",
+      "LangGraph",
+      "MCP",
       "Prompt engineering",
-      "Multi-LLM orchestration",
     ],
   },
   {

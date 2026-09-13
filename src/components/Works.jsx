@@ -20,14 +20,33 @@ const Works = () => {
             <p className="mt-3 text-lg leading-relaxed text-ink/90">
               {project.description}
             </p>
-            <a
-              href={project.href}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-4 inline-block text-lg text-accent transition-colors hover:text-ink"
-            >
-              View source
-            </a>
+            {project.tags?.length > 0 && (
+              <p className="mt-3 text-base text-ink/55">
+                {project.tags.join(" · ")}
+              </p>
+            )}
+            <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
+              {project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg text-accent transition-colors hover:text-ink"
+                >
+                  Visit site
+                </a>
+              )}
+              {project.source && (
+                <a
+                  href={project.source}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-lg text-accent transition-colors hover:text-ink"
+                >
+                  View source
+                </a>
+              )}
+            </div>
           </article>
         ))}
       </div>
